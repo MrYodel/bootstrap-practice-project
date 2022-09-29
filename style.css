@@ -1,0 +1,34 @@
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+.navbar-brand{
+  color:black;
+}
+.nav-link{
+  color:black;
+}
+.card.text-dark{
+  background-color:antiquewhite;
+}
+/* .text-light.p-5{
+  background-color:honeydew;
+} */
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.p-5.ok{
+  background-color:burlywood;
+}
+.text-secondary.p-5{
+  background-color:black;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
